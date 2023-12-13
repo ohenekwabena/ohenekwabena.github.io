@@ -298,10 +298,16 @@ max-width: 100px;
   padding-top: 8px;
   }
 
+  footer a{
+    text-decoration: none;
+    color: white;
+   }
+
   .socials{
     display: flex;
     gap: 20px;
     align-items: center;
+    transform: translateY(4px);
   }
 
   .socials img{
@@ -314,6 +320,24 @@ max-width: 100px;
     gap: 20px;
   }
 
+  .bold{
+    font-weight: 700;
+  }
+
+  .bold.info{
+    text-decoration: underline;
+  }
+
+  .contacts{
+    display: flex;
+    gap: 20px;
+    padding-top: 8px;
+  }
+
+  .contacts-wrapper{
+    display: flex;
+    gap: 30px;
+  }
 
   @media screen and (max-width: 720px) {
 
@@ -351,11 +375,20 @@ max-width: 100px;
     padding-top: 10px;
   }
 
+
+
   .socials-wrapper{
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
+
+  .contacts{
+    justify-content: center;
+    padding-top: 0;
+    margin: -2px;
+  }
+
 
   .caption{
     opacity: 1;
