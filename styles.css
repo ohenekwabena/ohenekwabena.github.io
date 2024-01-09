@@ -98,11 +98,6 @@ max-width: 100px;
   display: none;
 }
 
-
-
-
-
-  
   /* Header Styles */
   .home {
     text-align: center;
@@ -110,7 +105,7 @@ max-width: 100px;
     height: 600px;
     display: grid;
     place-content: center;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/closeup-shot-bride-her-bridesmaids-standing-holding-bouquets-no-faces-captured.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/Wedding-Shoppe.jpg);
     background-size: cover;
     background-position:50% 25%;
     backdrop-filter: blur(80px); 
@@ -120,6 +115,7 @@ max-width: 100px;
 
   .home h1{
     font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+    font-family: 'Times New Roman', cursive;
     margin-top: -150px;
     
 }
@@ -134,7 +130,7 @@ max-width: 100px;
   }
 
   .home .name{
-    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
   }
   
   /* Gallery Styles */
@@ -275,7 +271,7 @@ max-width: 100px;
   }
 
   .services-card h3{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 50px;
     font-size: clamp(1rem, 2vw + 0.3rem, 1.5rem);
   }
