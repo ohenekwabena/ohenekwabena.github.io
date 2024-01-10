@@ -105,11 +105,12 @@ max-width: 100px;
     height: 600px;
     display: grid;
     place-content: center;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/Wedding-Shoppe.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/Wedding-Shoppe.jpg);
     background-size: cover;
     background-position:50% 25%;
-    backdrop-filter: blur(80px); 
-    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    
     color: var(--accent);
   }
 
@@ -131,7 +132,12 @@ max-width: 100px;
 
   .home .name{
     font-size: 4rem;
+    background: -webkit-linear-gradient(left, #c70a88, #026156);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+
   
   /* Gallery Styles */
 
@@ -261,7 +267,7 @@ max-width: 100px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    background-color: var(--primary);
+    background-color: hsl(0, 0%, 7%);
     color: white;
     text-align: center;
   }
@@ -271,8 +277,7 @@ max-width: 100px;
   }
 
   .services-card h3{
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin: 30px 0;
     font-size: clamp(1rem, 2vw + 0.3rem, 1.5rem);
   }
 
@@ -357,9 +362,13 @@ max-width: 100px;
     .home h1{
       margin-top: -80px;
     }
+
+    .home .name{
+      display: block;
+    }
     
     .home p{
-      margin-top: -50px;
+      margin-top: -10px;
   }
 
   footer{
@@ -379,10 +388,15 @@ max-width: 100px;
     gap: 20px;
   }
 
+  .contacts-wrapper{
+    flex-direction: column;
+    gap: 5px;
+  }
+
   .contacts{
+    flex-direction: column;
     justify-content: center;
-    padding-top: 0;
-    margin: -2px;
+    gap: 10px;
   }
 
 
