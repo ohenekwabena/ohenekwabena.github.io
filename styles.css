@@ -365,7 +365,7 @@ max-width: 100px;
     }
 
     .home .name{
-      display: block;
+      display: inline-block;
       font-size: 3rem;
     }
     
