@@ -304,6 +304,10 @@ max-width: 100px;
     text-decoration: none;
     color: white;
    }
+   
+   footer a:last-of-type{
+    transform: translateY(2px);
+   }
 
   .socials{
     display: flex;
